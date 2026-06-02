@@ -1,0 +1,5 @@
+/* App-level styles — intentionally minimal, components handle their own */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
