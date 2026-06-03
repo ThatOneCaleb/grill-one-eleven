@@ -164,24 +164,6 @@ export default function FoodGallery() {
                   />
                 </motion.div>
               </AnimatePresence>
-              <motion.p
-                key={foodImages[currentImg].alt}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.3, duration: 0.5 }}
-                style={{
-                  textAlign: 'center',
-                  fontFamily: 'var(--font-body)',
-                  fontSize: '0.65rem',
-                  fontWeight: 400,
-                  letterSpacing: '0.15em',
-                  textTransform: 'uppercase',
-                  color: 'var(--gold)',
-                  margin: '12px 0 0',
-                }}
-              >
-                {foodImages[currentImg].alt}
-              </motion.p>
             </div>
           </div>
         </motion.div>
